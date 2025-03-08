@@ -1,0 +1,62 @@
+.love-letter-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .love-letter {
+    background: linear-gradient(135deg, #f0c6d2, #f7b9b9);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .love-letter.open {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  }
+  
+  .love-letter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .love-letter-header h3 {
+    font-size: 24px;
+    color: #e63946;
+    font-family: "Cursive", sans-serif;
+    margin: 0;
+  }
+  
+  .toggle-button {
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .toggle-button:hover {
+    background-color: #f1a7b2;
+  }
+  
+  .love-letter-content {
+    padding-top: 15px;
+    font-size: 18px;
+    color: #333;
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+  }
+  
+  .love-letter:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+  }
+  

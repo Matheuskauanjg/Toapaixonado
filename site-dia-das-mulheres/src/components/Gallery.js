@@ -9,7 +9,7 @@ const Gallery = () => {
 
   return (
     <div className="gallery">
-      <h2>Nossos Momentos Juntos 💕</h2>
+      <h2>A garota que eu amo, a mais perfeita</h2>
       <div className="photo-grid">
         {photos.map((photo, index) => (
           <img key={index} src={photo} alt={`foto-${index}`} />
