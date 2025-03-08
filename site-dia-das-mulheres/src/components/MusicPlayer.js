@@ -4,7 +4,7 @@ const MusicPlayer = () => {
   return (
     <div className="music-container">
       <iframe
-        src="https://open.spotify.com/embed/track/ID_DA_MUSICA"
+        src="https://open.spotify.com/intl-pt/track/70HrtYu3IBWpBIrPLEkcuP?si=264813a18d884f3d"
         width="300"
         height="80"
         frameBorder="0"

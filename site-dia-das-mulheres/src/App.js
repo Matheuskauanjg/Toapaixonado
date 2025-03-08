@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import LoveLettersPage from "./pages/LoveLettersPage"; // Importa a página das Cartas de Amor
 import { Analytics } from "@vercel/analytics/react"; // Importando Vercel Analytics
+import MusicPlayer from "./components/MusicPlayer"; // Importando o player do Spotify
 import "./styles.css";
 
 function App() {
@@ -15,6 +16,10 @@ function App() {
             <Link to="/cartas-de-amor">💌 Cartas de Amor</Link>
           </nav>
         </header>
+
+        {/* Player de música do Spotify */}
+        <MusicPlayer />
+
         <Routes>
           <Route path="/" element={<Home />} /> {/* Página inicial */}
           <Route path="/cartas-de-amor" element={<LoveLettersPage />} /> {/* Página das Cartas de Amor */}
